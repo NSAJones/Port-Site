@@ -1,0 +1,70 @@
+*{
+    transition-duration: 0.5s;
+    
+}
+
+body{
+    margin:0;
+    background-color:deepskyblue;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri;
+    transition-timing-function: ease-in-out;
+}
+
+header,footer{
+    background-color:dodgerblue;
+
+    text-align: center;
+    color: white;
+}
+
+
+.padded{
+    padding: 1em;
+}
+
+.project{
+    background-color: white;
+    color:dodgerblue;
+
+    width: 30em;
+    padding: 0.5em;
+    height: 20em;
+    flex: none;
+}
+
+.project-container{
+    display:flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    
+    gap: 1em;
+    
+    overflow-x: scroll;
+    
+}
+
+.rounded{
+    border-radius: 1em;
+    border: 0;
+}
+
+.main{
+    min-height: 100vh;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f156;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background:dodgerblue;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background:rgb(14, 78, 143);
+}
